@@ -5,8 +5,8 @@
 #' @source https://www.kaggle.com/c/titanic/data
 #' @format Data frame with columns
 #' \describe{
-#' \item{carrier}{Two letter abbreviation}
-#' \item{name}{Full name}
+#' \item{PassengerId}{Passenger ID}
+#' \item{Survived}{Passenger Survival Indicator}
 #' }
 #' @examples
 #'   titanic_gender_class_model
