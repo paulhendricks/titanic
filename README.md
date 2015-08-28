@@ -4,7 +4,7 @@ titanic
 
 [![Build Status](https://travis-ci.org/paulhendricks/titanic.png?branch=master)](https://travis-ci.org/paulhendricks/titanic) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/titanic)](http://cran.r-project.org/package=titanic) [![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/titanic)](http://cran.rstudio.com/package=titanic) [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 
-TO BE EDITED
+Titanic data set detailing survival of passengers often used with the [Kaggle](https://www.kaggle.com/) machine learning competition. Original data sets can be found [here](https://www.kaggle.com/c/titanic).
 
 Installation
 ------------
