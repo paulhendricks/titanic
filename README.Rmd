@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 [![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/titanic)](http://cran.rstudio.com/package=titanic)
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 
-Titanic data set detailing survival of passengers often used with the [Kaggle](https://www.kaggle.com/) machine learning competition. Original data sets can be found [here](https://www.kaggle.com/c/titanic).
+Titanic data set detailing survival of passengers often used with the [Kaggle](https://www.kaggle.com/) machine learning competition. More details about the competition can be found [here](https://www.kaggle.com/c/titanic), and the original data sets can be found [here](https://www.kaggle.com/c/titanic/data).
 
 ## Installation
 
