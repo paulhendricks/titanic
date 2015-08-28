@@ -1,0 +1,13 @@
+library(dplyr)
+
+src <- "https://www.kaggle.com/c/titanic/data"
+lcl <- "data-raw/test.csv"
+
+if (!file.exists(lcl)) {
+  download.file(src, lcl)
+}
+
+raw <- read.csv(lcl)
+titanic_test <- raw
+
+save(airlines, file = "data/titanic_test.rda")
