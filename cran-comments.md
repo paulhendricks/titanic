@@ -8,4 +8,4 @@ There were no ERRORs, WARNINGs, and 1 NOTE.
 
 * checking top-level files ... NOTE
 Non-standard file/directory found at top level:
-  ‘data-raw’
+  'data-raw'
