@@ -1,7 +1,5 @@
 #' Titanic gender model data.
 #'
-#' Description.
-#'
 #' @source https://www.kaggle.com/c/titanic/data
 #' @format Data frame with columns
 #' \describe{
