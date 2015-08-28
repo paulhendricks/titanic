@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 [![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/titanic)](http://cran.rstudio.com/package=titanic)
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 
-Titanic data set detailing survival of passengers often used with the [Kaggle](https://www.kaggle.com/) machine learning competition. More details about the competition can be found [here](https://www.kaggle.com/c/titanic), and the original data sets can be found [here](https://www.kaggle.com/c/titanic/data).
+`titanic` is an R package containing data sets providing information on the fate of passengers on the fatal maiden voyage of the ocean liner "Titanic", summarized according to economic status (class), sex, age and survival. These data sets are often used as an introduction to machine learning on [Kaggle](https://www.kaggle.com/). More details about the competition can be found [here](https://www.kaggle.com/c/titanic), and the original data sets can be found [here](https://www.kaggle.com/c/titanic/data).
 
 ## Installation
 
@@ -43,3 +43,11 @@ You can install:
     ```
 
 If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/paulhendricks/titanic/issues).
+
+## API
+
+```{r}
+library(titanic)
+knitr::kable(head(titanic_train))
+```
+
