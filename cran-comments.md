@@ -4,4 +4,8 @@
 * win-builder (devel and release)
 
 ## R CMD check results
-There were no ERRORs, WARNINGs, or NOTEs.
+There were no ERRORs, WARNINGs, and 1 NOTE.
+
+* checking top-level files ... NOTE
+Non-standard file/directory found at top level:
+  ‘data-raw’
