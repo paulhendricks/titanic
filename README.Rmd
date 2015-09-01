@@ -49,5 +49,6 @@ If you encounter a clear bug, please file a minimal reproducible example on [git
 ```{r}
 library(titanic)
 knitr::kable(head(titanic_train))
+knitr::kable(head(titanic_test))
 ```
 

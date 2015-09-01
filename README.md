@@ -44,3 +44,16 @@ knitr::kable(head(titanic_train))
 |            4|         1|       1| Futrelle, Mrs. Jacques Heath (Lily May Peel)        | female |   35|      1|      0| 113803           |  53.1000| C123  | S        |
 |            5|         0|       3| Allen, Mr. William Henry                            | male   |   35|      0|      0| 373450           |   8.0500|       | S        |
 |            6|         0|       3| Moran, Mr. James                                    | male   |   NA|      0|      0| 330877           |   8.4583|       | Q        |
+
+``` r
+knitr::kable(head(titanic_test))
+```
+
+|  PassengerId|  Pclass| Name                                         | Sex    |   Age|  SibSp|  Parch| Ticket  |     Fare| Cabin | Embarked |
+|------------:|-------:|:---------------------------------------------|:-------|-----:|------:|------:|:--------|--------:|:------|:---------|
+|          892|       3| Kelly, Mr. James                             | male   |  34.5|      0|      0| 330911  |   7.8292|       | Q        |
+|          893|       3| Wilkes, Mrs. James (Ellen Needs)             | female |  47.0|      1|      0| 363272  |   7.0000|       | S        |
+|          894|       2| Myles, Mr. Thomas Francis                    | male   |  62.0|      0|      0| 240276  |   9.6875|       | Q        |
+|          895|       3| Wirz, Mr. Albert                             | male   |  27.0|      0|      0| 315154  |   8.6625|       | S        |
+|          896|       3| Hirvonen, Mrs. Alexander (Helga E Lindqvist) | female |  22.0|      1|      1| 3101298 |  12.2875|       | S        |
+|          897|       3| Svensson, Mr. Johan Cervin                   | male   |  14.0|      0|      0| 7538    |   9.2250|       | S        |
