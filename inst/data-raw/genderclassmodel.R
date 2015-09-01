@@ -10,4 +10,4 @@ lcl <- "data-raw/genderclassmodel.csv"
 raw <- read.csv(lcl, stringsAsFactors = FALSE)
 titanic_gender_class_model <- raw
 
-save(airlines, file = "data/titanic_gender_class_model.rda")
+save(titanic_gender_class_model, file = "data/titanic_gender_class_model.rda")

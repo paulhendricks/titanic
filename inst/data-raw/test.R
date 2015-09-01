@@ -10,4 +10,4 @@ lcl <- "data-raw/test.csv"
 raw <- read.csv(lcl, stringsAsFactors = FALSE)
 titanic_test <- raw
 
-save(airlines, file = "data/titanic_test.rda")
+save(titanic_test, file = "data/titanic_test.rda")
