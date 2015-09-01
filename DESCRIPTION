@@ -1,6 +1,6 @@
 Package: titanic
 Title: Titanic Passenger Survival Data Set
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: person("Paul", "Hendricks", , "paul.hendricks.2013@owu.edu", c("aut", "cre"))
 Description: This data set provides information on the fate of passengers on
     the fatal maiden voyage of the ocean liner "Titanic", summarized according
