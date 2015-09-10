@@ -32,3 +32,10 @@ Getting started
 ---------------
 
 To get started, read the intro vignette: `vignette("introduction", package = "titanic")`.
+
+Author
+------
+
+The original author of `titanic` is [Paul Hendricks](https://github.com/paulhendricks).
+
+[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/paulhendricks/)
