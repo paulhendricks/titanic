@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>titanic_test. titanic 0.1.0.9000</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="">
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/highlight.css" rel="stylesheet">
+<link href="css/staticdocs.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+  </head>
+
+  <body>
+    <div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="index.html">titanic 0.1.0.9000</a>
+      <div class="nav">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="reference.html">Reference</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="container">
+      <header>
+        
+      </header>
+      
+      <h1>Titanic test data.</h1>
+
+<div class="row">
+  <div class="span8">
+    <h2>Usage</h2>
+    <pre><span class="symbol">titanic_test</span></pre>
+        
+    <div class="Format">
+      <h2>Format</h2>
+
+      <p>Data frame with columns
+<dl>
+<dt>PassengerId</dt><dd>Passenger ID</dd></p>
+
+      <p><dt>Pclass</dt><dd>Passenger Class</dd></p>
+
+      <p><dt>Name</dt><dd>Name</dd></p>
+
+      <p><dt>Sex</dt><dd>Sex</dd></p>
+
+      <p><dt>Age</dt><dd>Age</dd></p>
+
+      <p><dt>SibSp</dt><dd>Number of Siblings/Spouses Aboard</dd></p>
+
+      <p><dt>Parch</dt><dd>Number of Parents/Children Aboard</dd></p>
+
+      <p><dt>Ticket</dt><dd>Ticket Number</dd></p>
+
+      <p><dt>Fare</dt><dd>Passenger Fare</dd></p>
+
+      <p><dt>Cabin</dt><dd>Cabin</dd></p>
+
+      <p><dt>Embarked</dt><dd>Port of Embarkation</dd></p>
+
+      <p></dl></p>
+
+    </div>
+
+    <div class="Source">
+      <h2>Source</h2>
+
+      <p>https://www.kaggle.com/c/titanic/data</p>
+
+    </div>
+
+    <div class="Description">
+      <h2>Description</h2>
+
+      <p>Titanic test data.</p>
+
+    </div>
+    
+    <h2 id="examples">Examples</h2>
+    <pre class="examples"><div class='input'><span class="symbol">titanic_test</span></div>
+<div class='output'>    PassengerId Pclass                                                            Name    Sex   Age SibSp Parch
+1           892      3                                                Kelly, Mr. James   male 34.50     0     0
+2           893      3                                Wilkes, Mrs. James (Ellen Needs) female 47.00     1     0
+3           894      2                                       Myles, Mr. Thomas Francis   male 62.00     0     0
+4           895      3                                                Wirz, Mr. Albert   male 27.00     0     0
+5           896      3                    Hirvonen, Mrs. Alexander (Helga E Lindqvist) female 22.00     1     1
+6           897      3                                      Svensson, Mr. Johan Cervin   male 14.00     0     0
+7           898      3                                            Connolly, Miss. Kate female 30.00     0     0
+8           899      2                                    Caldwell, Mr. Albert Francis   male 26.00     1     1
+9           900      3                       Abrahim, Mrs. Joseph (Sophie Halaut Easu) female 18.00     0     0
+10          901      3                                         Davies, Mr. John Samuel   male 21.00     2     0
+11          902      3                                                Ilieff, Mr. Ylio   male    NA     0     0
+12          903      1                                      Jones, Mr. Charles Cresson   male 46.00     0     0
+13          904      1                   Snyder, Mrs. John Pillsbury (Nelle Stevenson) female 23.00     1     0
+14          905      2                                            Howard, Mr. Benjamin   male 63.00     1     0
+15          906      1         Chaffee, Mrs. Herbert Fuller (Carrie Constance Toogood) female 47.00     1     0
+16          907      2                   del Carlo, Mrs. Sebastiano (Argenia Genovesi) female 24.00     1     0
+17          908      2                                               Keane, Mr. Daniel   male 35.00     0     0
+18          909      3                                               Assaf, Mr. Gerios   male 21.00     0     0
+19          910      3                                    Ilmakangas, Miss. Ida Livija female 27.00     1     0
+20          911      3                           Assaf Khalil, Mrs. Mariana (Miriam&quot;)&quot; female 45.00     0     0
+21          912      1                                          Rothschild, Mr. Martin   male 55.00     1     0
+22          913      3                                       Olsen, Master. Artur Karl   male  9.00     0     1
+23          914      1                            Flegenheim, Mrs. Alfred (Antoinette) female    NA     0     0
+24          915      1                                 Williams, Mr. Richard Norris II   male 21.00     0     1
+25          916      1                 Ryerson, Mrs. Arthur Larned (Emily Maria Borie) female 48.00     1     3
+26          917      3                                         Robins, Mr. Alexander A   male 50.00     1     0
+27          918      1                                    Ostby, Miss. Helene Ragnhild female 22.00     0     1
+28          919      3                                               Daher, Mr. Shedid   male 22.50     0     0
+29          920      1                                         Brady, Mr. John Bertram   male 41.00     0     0
+30          921      3                                               Samaan, Mr. Elias   male    NA     2     0
+31          922      2                                    Louch, Mr. Charles Alexander   male 50.00     1     0
+32          923      2                                   Jefferys, Mr. Clifford Thomas   male 24.00     2     0
+33          924      3                        Dean, Mrs. Bertram (Eva Georgetta Light) female 33.00     1     2
+34          925      3               Johnston, Mrs. Andrew G (Elizabeth Lily&quot; Watson)&quot; female    NA     1     2
+35          926      1                                        Mock, Mr. Philipp Edmund   male 30.00     1     0
+36          927      3                Katavelas, Mr. Vassilios (Catavelas Vassilios&quot;)&quot;   male 18.50     0     0
+37          928      3                                             Roth, Miss. Sarah A female    NA     0     0
+38          929      3                                              Cacic, Miss. Manda female 21.00     0     0
+39          930      3                                                 Sap, Mr. Julius   male 25.00     0     0
+40          931      3                                                   Hee, Mr. Ling   male    NA     0     0
+41          932      3                                                Karun, Mr. Franz   male 39.00     0     1
+42          933      1                                     Franklin, Mr. Thomas Parham   male    NA     0     0
+43          934      3                                           Goldsmith, Mr. Nathan   male 41.00     0     0
+44          935      2                           Corbett, Mrs. Walter H (Irene Colvin) female 30.00     0     0
+45          936      1                Kimball, Mrs. Edwin Nelson Jr (Gertrude Parsons) female 45.00     1     0
+46          937      3                                 Peltomaki, Mr. Nikolai Johannes   male 25.00     0     0
+47          938      1                                        Chevre, Mr. Paul Romaine   male 45.00     0     0
+48          939      3                                        Shaughnessy, Mr. Patrick   male    NA     0     0
+49          940      1                 Bucknell, Mrs. William Robert (Emma Eliza Ward) female 60.00     0     0
+50          941      3                  Coutts, Mrs. William (Winnie Minnie&quot; Treanor)&quot; female 36.00     0     2
+51          942      1                                        Smith, Mr. Lucien Philip   male 24.00     1     0
+52          943      2                                              Pulbaum, Mr. Franz   male 27.00     0     0
+53          944      2                                   Hocking, Miss. Ellen Nellie&quot;&quot; female 20.00     2     1
+54          945      1                                      Fortune, Miss. Ethel Flora female 28.00     3     2
+55          946      2                               Mangiavacchi, Mr. Serafino Emilio   male    NA     0     0
+56          947      3                                            Rice, Master. Albert   male 10.00     4     1
+57          948      3                                                 Cor, Mr. Bartol   male 35.00     0     0
+58          949      3                                   Abelseth, Mr. Olaus Jorgensen   male 25.00     0     0
+59          950      3                                       Davison, Mr. Thomas Henry   male    NA     1     0
+60          951      1                                     Chaudanson, Miss. Victorine female 36.00     0     0
+61          952      3                                                 Dika, Mr. Mirko   male 17.00     0     0
+62          953      2                                       McCrae, Mr. Arthur Gordon   male 32.00     0     0
+63          954      3                                    Bjorklund, Mr. Ernst Herbert   male 18.00     0     0
+64          955      3                                    Bradley, Miss. Bridget Delia female 22.00     0     0
+65          956      1                                     Ryerson, Master. John Borie   male 13.00     2     2
+66          957      2             Corey, Mrs. Percy C (Mary Phyllis Elizabeth Miller) female    NA     0     0
+67          958      3                                         Burns, Miss. Mary Delia female 18.00     0     0
+68          959      1                                  Moore, Mr. Clarence Bloomfield   male 47.00     0     0
+69          960      1                                 Tucker, Mr. Gilbert Milligan Jr   male 31.00     0     0
+70          961      1                             Fortune, Mrs. Mark (Mary McDougald) female 60.00     1     4
+71          962      3                                       Mulvihill, Miss. Bertha E female 24.00     0     0
+72          963      3                                              Minkoff, Mr. Lazar   male 21.00     0     0
+73          964      3                                  Nieminen, Miss. Manta Josefina female 29.00     0     0
+74          965      1                                 Ovies y Rodriguez, Mr. Servando   male 28.50     0     0
+75          966      1                                            Geiger, Miss. Amalie female 35.00     0     0
+76          967      1                                              Keeping, Mr. Edwin   male 32.50     0     0
+77          968      3                                                Miles, Mr. Frank   male    NA     0     0
+78          969      1            Cornell, Mrs. Robert Clifford (Malvina Helen Lamson) female 55.00     2     0
+79          970      2                                  Aldworth, Mr. Charles Augustus   male 30.00     0     0
+80          971      3                                          Doyle, Miss. Elizabeth female 24.00     0     0
+81          972      3                                            Boulos, Master. Akar   male  6.00     1     1
+82          973      1                                              Straus, Mr. Isidor   male 67.00     1     0
+83          974      1                                          Case, Mr. Howard Brown   male 49.00     0     0
+84          975      3                                            Demetri, Mr. Marinko   male    NA     0     0
+85          976      2                                           Lamb, Mr. John Joseph   male    NA     0     0
+86          977      3                                              Khalil, Mr. Betros   male    NA     1     0
+87          978      3                                              Barry, Miss. Julia female 27.00     0     0
+88          979      3                                      Badman, Miss. Emily Louisa female 18.00     0     0
+89          980      3                                         O&#39;Donoghue, Ms. Bridget female    NA     0     0
+90          981      2                                     Wells, Master. Ralph Lester   male  2.00     1     1
+91          982      3     Dyker, Mrs. Adolf Fredrik (Anna Elisabeth Judith Andersson) female 22.00     1     0
+92          983      3                                              Pedersen, Mr. Olaf   male    NA     0     0
+93          984      1                            Davidson, Mrs. Thornton (Orian Hays) female 27.00     1     2
+94          985      3                                               Guest, Mr. Robert   male    NA     0     0
+95          986      1                                             Birnbaum, Mr. Jakob   male 25.00     0     0
+96          987      3                                      Tenglin, Mr. Gunnar Isidor   male 25.00     0     0
+97          988      1          Cavendish, Mrs. Tyrell William (Julia Florence Siegel) female 76.00     1     0
+98          989      3                                       Makinen, Mr. Kalle Edvard   male 29.00     0     0
+99          990      3                                    Braf, Miss. Elin Ester Maria female 20.00     0     0
+100         991      3                                    Nancarrow, Mr. William Henry   male 33.00     0     0
+101         992      1             Stengel, Mrs. Charles Emil Henry (Annie May Morris) female 43.00     1     0
+102         993      2                                              Weisz, Mr. Leopold   male 27.00     1     0
+103         994      3                                              Foley, Mr. William   male    NA     0     0
+104         995      3                          Johansson Palmquist, Mr. Oskar Leander   male 26.00     0     0
+105         996      3                       Thomas, Mrs. Alexander (Thamine Thelma&quot;)&quot; female 16.00     1     1
+106         997      3                                       Holthen, Mr. Johan Martin   male 28.00     0     0
+107         998      3                                             Buckley, Mr. Daniel   male 21.00     0     0
+108         999      3                                                Ryan, Mr. Edward   male    NA     0     0
+109        1000      3                                Willer, Mr. Aaron (Abi Weller&quot;)&quot;   male    NA     0     0
+110        1001      2                                               Swane, Mr. George   male 18.50     0     0
+111        1002      2                                        Stanton, Mr. Samuel Ward   male 41.00     0     0
+112        1003      3                                      Shine, Miss. Ellen Natalia female    NA     0     0
+113        1004      1                                        Evans, Miss. Edith Corse female 36.00     0     0
+114        1005      3                                        Buckley, Miss. Katherine female 18.50     0     0
+115        1006      1                          Straus, Mrs. Isidor (Rosalie Ida Blun) female 63.00     1     0
+116        1007      3                                     Chronopoulos, Mr. Demetrios   male 18.00     1     0
+117        1008      3                                                Thomas, Mr. John   male    NA     0     0
+118        1009      3                                 Sandstrom, Miss. Beatrice Irene female  1.00     1     1
+119        1010      1                                            Beattie, Mr. Thomson   male 36.00     0     0
+120        1011      2                 Chapman, Mrs. John Henry (Sara Elizabeth Lawry) female 29.00     1     0
+121        1012      2                                            Watt, Miss. Bertha J female 12.00     0     0
+122        1013      3                                               Kiernan, Mr. John   male    NA     1     0
+123        1014      1                                 Schabert, Mrs. Paul (Emma Mock) female 35.00     1     0
+124        1015      3                                         Carver, Mr. Alfred John   male 28.00     0     0
+125        1016      3                                               Kennedy, Mr. John   male    NA     0     0
+126        1017      3                                        Cribb, Miss. Laura Alice female 17.00     0     1
+127        1018      3                                        Brobeck, Mr. Karl Rudolf   male 22.00     0     0
+128        1019      3                                             McCoy, Miss. Alicia female    NA     2     0
+129        1020      2                                            Bowenur, Mr. Solomon   male 42.00     0     0
+130        1021      3                                            Petersen, Mr. Marius   male 24.00     0     0
+131        1022      3                                         Spinner, Mr. Henry John   male 32.00     0     0
+132        1023      1                                       Gracie, Col. Archibald IV   male 53.00     0     0
+133        1024      3                                   Lefebre, Mrs. Frank (Frances) female    NA     0     4
+134        1025      3                                           Thomas, Mr. Charles P   male    NA     1     0
+135        1026      3                                          Dintcheff, Mr. Valtcho   male 43.00     0     0
+136        1027      3                                       Carlsson, Mr. Carl Robert   male 24.00     0     0
+137        1028      3                                       Zakarian, Mr. Mapriededer   male 26.50     0     0
+138        1029      2                                             Schmidt, Mr. August   male 26.00     0     0
+139        1030      3                                           Drapkin, Miss. Jennie female 23.00     0     0
+140        1031      3                                  Goodwin, Mr. Charles Frederick   male 40.00     1     6
+141        1032      3                                     Goodwin, Miss. Jessie Allis female 10.00     5     2
+142        1033      1                                            Daniels, Miss. Sarah female 33.00     0     0
+143        1034      1                                      Ryerson, Mr. Arthur Larned   male 61.00     1     3
+144        1035      2                                      Beauchamp, Mr. Henry James   male 28.00     0     0
+145        1036      1           Lindeberg-Lind, Mr. Erik Gustaf (Mr Edward Lingrey&quot;)&quot;   male 42.00     0     0
+146        1037      3                                       Vander Planke, Mr. Julius   male 31.00     3     0
+147        1038      1                                     Hilliard, Mr. Herbert Henry   male    NA     0     0
+148        1039      3                                                Davies, Mr. Evan   male 22.00     0     0
+149        1040      1                                       Crafton, Mr. John Bertram   male    NA     0     0
+150        1041      2                                          Lahtinen, Rev. William   male 30.00     1     1
+151        1042      1                           Earnshaw, Mrs. Boulton (Olive Potter) female 23.00     0     1
+152        1043      3                                            Matinoff, Mr. Nicola   male    NA     0     0
+153        1044      3                                              Storey, Mr. Thomas   male 60.50     0     0
+154        1045      3                  Klasen, Mrs. (Hulda Kristina Eugenia Lofqvist) female 36.00     0     2
+155        1046      3                                    Asplund, Master. Filip Oscar   male 13.00     4     2
+156        1047      3                                            Duquemin, Mr. Joseph   male 24.00     0     0
+157        1048      1                                               Bird, Miss. Ellen female 29.00     0     0
+158        1049      3                                        Lundin, Miss. Olga Elida female 23.00     0     0
+159        1050      1                                        Borebank, Mr. John James   male 42.00     0     0
+160        1051      3                             Peacock, Mrs. Benjamin (Edith Nile) female 26.00     0     2
+161        1052      3                                              Smyth, Miss. Julia female    NA     0     0
+162        1053      3                                  Touma, Master. Georges Youssef   male  7.00     1     1
+163        1054      2                                            Wright, Miss. Marion female 26.00     0     0
+164        1055      3                                              Pearce, Mr. Ernest   male    NA     0     0
+165        1056      2                                   Peruschitz, Rev. Joseph Maria   male 41.00     0     0
+166        1057      3                      Kink-Heilmann, Mrs. Anton (Luise Heilmann) female 26.00     1     1
+167        1058      1                                              Brandeis, Mr. Emil   male 48.00     0     0
+168        1059      3                                         Ford, Mr. Edward Watson   male 18.00     2     2
+169        1060      1     Cassebeer, Mrs. Henry Arthur Jr (Eleanor Genevieve Fosdick) female    NA     0     0
+170        1061      3                                    Hellstrom, Miss. Hilda Maria female 22.00     0     0
+171        1062      3                                              Lithman, Mr. Simon   male    NA     0     0
+172        1063      3                                             Zakarian, Mr. Ortin   male 27.00     0     0
+173        1064      3                                        Dyker, Mr. Adolf Fredrik   male 23.00     1     0
+174        1065      3                                                Torfa, Mr. Assad   male    NA     0     0
+175        1066      3                      Asplund, Mr. Carl Oscar Vilhelm Gustafsson   male 40.00     1     5
+176        1067      2                                       Brown, Miss. Edith Eileen female 15.00     0     2
+177        1068      2                                            Sincock, Miss. Maude female 20.00     0     0
+178        1069      1                                 Stengel, Mr. Charles Emil Henry   male 54.00     1     0
+179        1070      2                Becker, Mrs. Allen Oliver (Nellie E Baumgardner) female 36.00     0     3
+180        1071      1           Compton, Mrs. Alexander Taylor (Mary Eliza Ingersoll) female 64.00     0     2
+181        1072      2                                       McCrie, Mr. James Matthew   male 30.00     0     0
+182        1073      1                                Compton, Mr. Alexander Taylor Jr   male 37.00     1     1
+183        1074      1  Marvin, Mrs. Daniel Warner (Mary Graham Carmichael Farquarson) female 18.00     1     0
+184        1075      3                                               Lane, Mr. Patrick   male    NA     0     0
+185        1076      1            Douglas, Mrs. Frederick Charles (Mary Helene Baxter) female 27.00     1     1
+186        1077      2                                       Maybery, Mr. Frank Hubert   male 40.00     0     0
+187        1078      2                            Phillips, Miss. Alice Frances Louisa female 21.00     0     1
+188        1079      3                                              Davies, Mr. Joseph   male 17.00     2     0
+189        1080      3                                                 Sage, Miss. Ada female    NA     8     2
+190        1081      2                                                 Veal, Mr. James   male 40.00     0     0
+191        1082      2                                            Angle, Mr. William A   male 34.00     1     0
+192        1083      1                                          Salomon, Mr. Abraham L   male    NA     0     0
+193        1084      3                               van Billiard, Master. Walter John   male 11.50     1     1
+194        1085      2                                               Lingane, Mr. John   male 61.00     0     0
+195        1086      2                                   Drew, Master. Marshall Brines   male  8.00     0     2
+196        1087      3                               Karlsson, Mr. Julius Konrad Eugen   male 33.00     0     0
+197        1088      1                                 Spedden, Master. Robert Douglas   male  6.00     0     2
+198        1089      3                                     Nilsson, Miss. Berta Olivia female 18.00     0     0
+199        1090      2                                  Baimbrigge, Mr. Charles Robert   male 23.00     0     0
+200        1091      3                         Rasmussen, Mrs. (Lena Jacobsen Solvang) female    NA     0     0
+201        1092      3                                              Murphy, Miss. Nora female    NA     0     0
+202        1093      3                         Danbom, Master. Gilbert Sigvard Emanuel   male  0.33     0     2
+203        1094      1                                          Astor, Col. John Jacob   male 47.00     1     0
+204        1095      2                                      Quick, Miss. Winifred Vera female  8.00     1     1
+205        1096      2                                        Andrew, Mr. Frank Thomas   male 25.00     0     0
+206        1097      1                                       Omont, Mr. Alfred Fernand   male    NA     0     0
+207        1098      3                                        McGowan, Miss. Katherine female 35.00     0     0
+208        1099      2                                    Collett, Mr. Sidney C Stuart   male 24.00     0     0
+209        1100      1                                   Rosenbaum, Miss. Edith Louise female 33.00     0     0
+210        1101      3                                              Delalic, Mr. Redjo   male 25.00     0     0
+211        1102      3                                     Andersen, Mr. Albert Karvin   male 32.00     0     0
+212        1103      3                                               Finoli, Mr. Luigi   male    NA     0     0
+213        1104      2                                       Deacon, Mr. Percy William   male 17.00     0     0
+214        1105      2                    Howard, Mrs. Benjamin (Ellen Truelove Arman) female 60.00     1     0
+215        1106      3                          Andersson, Miss. Ida Augusta Margareta female 38.00     4     2
+216        1107      1                                           Head, Mr. Christopher   male 42.00     0     0
+217        1108      3                                      Mahon, Miss. Bridget Delia female    NA     0     0
+218        1109      1                                        Wick, Mr. George Dennick   male 57.00     1     1
+219        1110      1                    Widener, Mrs. George Dunton (Eleanor Elkins) female 50.00     1     1
+220        1111      3                                 Thomson, Mr. Alexander Morrison   male    NA     0     0
+221        1112      2                                  Duran y More, Miss. Florentina female 30.00     1     0
+222        1113      3                                          Reynolds, Mr. Harold J   male 21.00     0     0
+223        1114      2                                      Cook, Mrs. (Selena Rogers) female 22.00     0     0
+224        1115      3                                   Karlsson, Mr. Einar Gervasius   male 21.00     0     0
+225        1116      1                Candee, Mrs. Edward (Helen Churchill Hungerford) female 53.00     0     0
+226        1117      3                Moubarek, Mrs. George (Omine Amenia&quot; Alexander)&quot; female    NA     0     2
+227        1118      3                                      Asplund, Mr. Johan Charles   male 23.00     0     0
+228        1119      3                                          McNeill, Miss. Bridget female    NA     0     0
+229        1120      3                                       Everett, Mr. Thomas James   male 40.50     0     0
+230        1121      2                              Hocking, Mr. Samuel James Metcalfe   male 36.00     0     0
+231        1122      2                                     Sweet, Mr. George Frederick   male 14.00     0     0
+232        1123      1                                        Willard, Miss. Constance female 21.00     0     0
+233        1124      3                                         Wiklund, Mr. Karl Johan   male 21.00     1     0
+234        1125      3                                            Linehan, Mr. Michael   male    NA     0     0
+235        1126      1                                       Cumings, Mr. John Bradley   male 39.00     1     0
+236        1127      3                                          Vendel, Mr. Olof Edvin   male 20.00     0     0
+237        1128      1                                        Warren, Mr. Frank Manley   male 64.00     1     0
+238        1129      3                                             Baccos, Mr. Raffull   male 20.00     0     0
+239        1130      2                                           Hiltunen, Miss. Marta female 18.00     1     1
+240        1131      1                     Douglas, Mrs. Walter Donald (Mahala Dutton) female 48.00     1     0
+241        1132      1                       Lindstrom, Mrs. Carl Johan (Sigrid Posse) female 55.00     0     0
+242        1133      2                                   Christy, Mrs. (Alice Frances) female 45.00     0     2
+243        1134      1                                    Spedden, Mr. Frederic Oakley   male 45.00     1     1
+244        1135      3                                              Hyman, Mr. Abraham   male    NA     0     0
+245        1136      3                       Johnston, Master. William Arthur Willie&quot;&quot;   male    NA     1     2
+246        1137      1                                         Kenyon, Mr. Frederick R   male 41.00     1     0
+247        1138      2                           Karnes, Mrs. J Frank (Claire Bennett) female 22.00     0     0
+248        1139      2                                          Drew, Mr. James Vivian   male 42.00     1     1
+249        1140      2                        Hold, Mrs. Stephen (Annie Margaret Hill) female 29.00     1     0
+250        1141      3                       Khalil, Mrs. Betros (Zahie Maria&quot; Elias)&quot; female    NA     1     0
+251        1142      2                                           West, Miss. Barbara J female  0.92     1     2
+252        1143      3                        Abrahamsson, Mr. Abraham August Johannes   male 20.00     0     0
+253        1144      1                                        Clark, Mr. Walter Miller   male 27.00     1     0
+254        1145      3                                        Salander, Mr. Karl Johan   male 24.00     0     0
+255        1146      3                                             Wenzel, Mr. Linhart   male 32.50     0     0
+256        1147      3                                      MacKay, Mr. George William   male    NA     0     0
+257        1148      3                                                 Mahon, Mr. John   male    NA     0     0
+258        1149      3                                           Niklasson, Mr. Samuel   male 28.00     0     0
+259        1150      2                                         Bentham, Miss. Lilian W female 19.00     0     0
+260        1151      3                                        Midtsjo, Mr. Karl Albert   male 21.00     0     0
+261        1152      3                            de Messemaeker, Mr. Guillaume Joseph   male 36.50     1     0
+262        1153      3                                   Nilsson, Mr. August Ferdinand   male 21.00     0     0
+263        1154      2               Wells, Mrs. Arthur Henry (Addie&quot; Dart Trevaskis)&quot; female 29.00     0     2
+264        1155      3                                    Klasen, Miss. Gertrud Emilia female  1.00     1     1
+265        1156      2                          Portaluppi, Mr. Emilio Ilario Giuseppe   male 30.00     0     0
+266        1157      3                                           Lyntakoff, Mr. Stanko   male    NA     0     0
+267        1158      1                           Chisholm, Mr. Roderick Robert Crispin   male    NA     0     0
+268        1159      3                                     Warren, Mr. Charles William   male    NA     0     0
+269        1160      3                                     Howard, Miss. May Elizabeth female    NA     0     0
+270        1161      3                                               Pokrnic, Mr. Mate   male 17.00     0     0
+271        1162      1                                    McCaffry, Mr. Thomas Francis   male 46.00     0     0
+272        1163      3                                                Fox, Mr. Patrick   male    NA     0     0
+273        1164      1                   Clark, Mrs. Walter Miller (Virginia McDowell) female 26.00     1     0
+274        1165      3                                              Lennon, Miss. Mary female    NA     1     0
+275        1166      3                                           Saade, Mr. Jean Nassr   male    NA     0     0
+276        1167      2                             Bryhl, Miss. Dagmar Jenny Ingeborg  female 20.00     1     0
+277        1168      2                                    Parker, Mr. Clifford Richard   male 28.00     0     0
+278        1169      2                                           Faunthorpe, Mr. Harry   male 40.00     1     0
+279        1170      2                                            Ware, Mr. John James   male 30.00     1     0
+280        1171      2                                       Oxenham, Mr. Percy Thomas   male 22.00     0     0
+281        1172      3                                          Oreskovic, Miss. Jelka female 23.00     0     0
+282        1173      3                                  Peacock, Master. Alfred Edward   male  0.75     1     1
+283        1174      3                                           Fleming, Miss. Honora female    NA     0     0
+284        1175      3                                      Touma, Miss. Maria Youssef female  9.00     1     1
+285        1176      3                                     Rosblom, Miss. Salli Helena female  2.00     1     1
+286        1177      3                                             Dennis, Mr. William   male 36.00     0     0
+287        1178      3                          Franklin, Mr. Charles (Charles Fardon)   male    NA     0     0
+288        1179      1                                      Snyder, Mr. John Pillsbury   male 24.00     1     0
+289        1180      3                                         Mardirosian, Mr. Sarkis   male    NA     0     0
+290        1181      3                                                Ford, Mr. Arthur   male    NA     0     0
+291        1182      1                             Rheims, Mr. George Alexander Lucien   male    NA     0     0
+292        1183      3                          Daly, Miss. Margaret Marcella Maggie&quot;&quot; female 30.00     0     0
+293        1184      3                                               Nasr, Mr. Mustafa   male    NA     0     0
+294        1185      1                                           Dodge, Dr. Washington   male 53.00     1     1
+295        1186      3                                       Wittevrongel, Mr. Camille   male 36.00     0     0
+296        1187      3                                            Angheloff, Mr. Minko   male 26.00     0     0
+297        1188      2                                           Laroche, Miss. Louise female  1.00     1     2
+298        1189      3                                               Samaan, Mr. Hanna   male    NA     2     0
+299        1190      1                                      Loring, Mr. Joseph Holland   male 30.00     0     0
+300        1191      3                                             Johansson, Mr. Nils   male 29.00     0     0
+301        1192      3                                       Olsson, Mr. Oscar Wilhelm   male 32.00     0     0
+302        1193      2                                             Malachard, Mr. Noel   male    NA     0     0
+303        1194      2                                     Phillips, Mr. Escott Robert   male 43.00     0     1
+304        1195      3                                               Pokrnic, Mr. Tome   male 24.00     0     0
+305        1196      3                               McCarthy, Miss. Catherine Katie&quot;&quot; female    NA     0     0
+306        1197      1      Crosby, Mrs. Edward Gifford (Catherine Elizabeth Halstead) female 64.00     1     1
+307        1198      1                            Allison, Mr. Hudson Joshua Creighton   male 30.00     1     2
+308        1199      3                                       Aks, Master. Philip Frank   male  0.83     0     1
+309        1200      1                                      Hays, Mr. Charles Melville   male 55.00     1     1
+310        1201      3                      Hansen, Mrs. Claus Peter (Jennie L Howard) female 45.00     1     0
+311        1202      3                                            Cacic, Mr. Jego Grga   male 18.00     0     0
+312        1203      3                                            Vartanian, Mr. David   male 22.00     0     0
+313        1204      3                                             Sadowitz, Mr. Harry   male    NA     0     0
+314        1205      3                                             Carr, Miss. Jeannie female 37.00     0     0
+315        1206      1                           White, Mrs. John Stuart (Ella Holmes) female 55.00     0     0
+316        1207      3                                            Hagardon, Miss. Kate female 17.00     0     0
+317        1208      1                                   Spencer, Mr. William Augustus   male 57.00     1     0
+318        1209      2                                      Rogers, Mr. Reginald Harry   male 19.00     0     0
+319        1210      3                                       Jonsson, Mr. Nils Hilding   male 27.00     0     0
+320        1211      2                                    Jefferys, Mr. Ernest Wilfred   male 22.00     2     0
+321        1212      3                                     Andersson, Mr. Johan Samuel   male 26.00     0     0
+322        1213      3                                           Krekorian, Mr. Neshan   male 25.00     0     0
+323        1214      2                                              Nesson, Mr. Israel   male 26.00     0     0
+324        1215      1                                              Rowe, Mr. Alfred G   male 33.00     0     0
+325        1216      1                                          Kreuchen, Miss. Emilie female 39.00     0     0
+326        1217      3                                                  Assam, Mr. Ali   male 23.00     0     0
+327        1218      2                                    Becker, Miss. Ruth Elizabeth female 12.00     2     1
+328        1219      1                     Rosenshine, Mr. George (Mr George Thorne&quot;)&quot;   male 46.00     0     0
+329        1220      2                                   Clarke, Mr. Charles Valentine   male 29.00     1     0
+330        1221      2                                             Enander, Mr. Ingvar   male 21.00     0     0
+331        1222      2          Davies, Mrs. John Morgan (Elizabeth Agnes Mary White)  female 48.00     0     2
+332        1223      1                                    Dulles, Mr. William Crothers   male 39.00     0     0
+333        1224      3                                             Thomas, Mr. Tannous   male    NA     0     0
+334        1225      3                           Nakid, Mrs. Said (Waika Mary&quot; Mowad)&quot; female 19.00     1     1
+335        1226      3                                                   Cor, Mr. Ivan   male 27.00     0     0
+336        1227      1                                        Maguire, Mr. John Edward   male 30.00     0     0
+337        1228      2                                      de Brito, Mr. Jose Joaquim   male 32.00     0     0
+338        1229      3                                               Elias, Mr. Joseph   male 39.00     0     2
+339        1230      2                                            Denbury, Mr. Herbert   male 25.00     0     0
+340        1231      3                                           Betros, Master. Seman   male    NA     0     0
+341        1232      2                                   Fillbrook, Mr. Joseph Charles   male 18.00     0     0
+342        1233      3                                      Lundstrom, Mr. Thure Edvin   male 32.00     0     0
+343        1234      3                                           Sage, Mr. John George   male    NA     1     9
+344        1235      1 Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake) female 58.00     0     1
+345        1236      3                             van Billiard, Master. James William   male    NA     1     1
+346        1237      3                                     Abelseth, Miss. Karen Marie female 16.00     0     0
+347        1238      2                                      Botsford, Mr. William Hull   male 26.00     0     0
+348        1239      3                 Whabee, Mrs. George Joseph (Shawneene Abi-Saab) female 38.00     0     0
+349        1240      2                                                Giles, Mr. Ralph   male 24.00     0     0
+350        1241      2                                          Walcroft, Miss. Nellie female 31.00     0     0
+351        1242      1                    Greenfield, Mrs. Leo David (Blanche Strouse) female 45.00     0     1
+352        1243      2                                       Stokes, Mr. Philip Joseph   male 25.00     0     0
+353        1244      2                                             Dibden, Mr. William   male 18.00     0     0
+354        1245      2                                              Herman, Mr. Samuel   male 49.00     1     2
+355        1246      3                         Dean, Miss. Elizabeth Gladys Millvina&quot;&quot; female  0.17     1     2
+356        1247      1                                        Julian, Mr. Henry Forbes   male 50.00     0     0
+357        1248      1                  Brown, Mrs. John Murray (Caroline Lane Lamson) female 59.00     2     0
+358        1249      3                                             Lockyer, Mr. Edward   male    NA     0     0
+359        1250      3                                            O&#39;Keefe, Mr. Patrick   male    NA     0     0
+360        1251      3             Lindell, Mrs. Edvard Bengtsson (Elin Gerda Persson) female 30.00     1     0
+361        1252      3                                     Sage, Master. William Henry   male 14.50     8     2
+362        1253      2                         Mallet, Mrs. Albert (Antoinette Magnin) female 24.00     1     1
+363        1254      2                    Ware, Mrs. John James (Florence Louise Long) female 31.00     0     0
+364        1255      3                                               Strilic, Mr. Ivan   male 27.00     0     0
+365        1256      1                    Harder, Mrs. George Achilles (Dorothy Annan) female 25.00     1     0
+366        1257      3                                  Sage, Mrs. John (Annie Bullen) female    NA     1     9
+367        1258      3                                               Caram, Mr. Joseph   male    NA     1     0
+368        1259      3                    Riihivouri, Miss. Susanna Juhantytar Sanni&quot;&quot; female 22.00     0     0
+369        1260      1                         Gibson, Mrs. Leonard (Pauline C Boeson) female 45.00     0     1
+370        1261      2                                   Pallas y Castello, Mr. Emilio   male 29.00     0     0
+371        1262      2                                                Giles, Mr. Edgar   male 21.00     1     0
+372        1263      1                                       Wilson, Miss. Helen Alice female 31.00     0     0
+373        1264      1                                         Ismay, Mr. Joseph Bruce   male 49.00     0     0
+374        1265      2                                          Harbeck, Mr. William H   male 44.00     0     0
+375        1266      1                           Dodge, Mrs. Washington (Ruth Vidaver) female 54.00     1     1
+376        1267      1                                        Bowen, Miss. Grace Scott female 45.00     0     0
+377        1268      3                                               Kink, Miss. Maria female 22.00     2     0
+378        1269      2                                    Cotterill, Mr. Henry Harry&quot;&quot;   male 21.00     0     0
+379        1270      1                                     Hipkins, Mr. William Edward   male 55.00     0     0
+380        1271      3                                     Asplund, Master. Carl Edgar   male  5.00     4     2
+381        1272      3                                           O&#39;Connor, Mr. Patrick   male    NA     0     0
+382        1273      3                                               Foley, Mr. Joseph   male 26.00     0     0
+383        1274      3                                      Risien, Mrs. Samuel (Emma) female    NA     0     0
+384        1275      3                             McNamee, Mrs. Neal (Eileen O&#39;Leary) female 19.00     1     0
+385        1276      2                                  Wheeler, Mr. Edwin Frederick&quot;&quot;   male    NA     0     0
+386        1277      2                                              Herman, Miss. Kate female 24.00     1     2
+387        1278      3                                  Aronsson, Mr. Ernst Axel Algot   male 24.00     0     0
+388        1279      2                                                 Ashby, Mr. John   male 57.00     0     0
+389        1280      3                                            Canavan, Mr. Patrick   male 21.00     0     0
+390        1281      3                                     Palsson, Master. Paul Folke   male  6.00     3     1
+391        1282      1                                      Payne, Mr. Vivian Ponsonby   male 23.00     0     0
+392        1283      1                  Lines, Mrs. Ernest H (Elizabeth Lindsey James) female 51.00     0     1
+393        1284      3                                   Abbott, Master. Eugene Joseph   male 13.00     0     2
+394        1285      2                                            Gilbert, Mr. William   male 47.00     0     0
+395        1286      3                                        Kink-Heilmann, Mr. Anton   male 29.00     3     1
+396        1287      1                  Smith, Mrs. Lucien Philip (Mary Eloise Hughes) female 18.00     1     0
+397        1288      3                                            Colbert, Mr. Patrick   male 24.00     0     0
+398        1289      1 Frolicher-Stehli, Mrs. Maxmillian (Margaretha Emerentia Stehli) female 48.00     1     1
+399        1290      3                                  Larsson-Rondberg, Mr. Edvard A   male 22.00     0     0
+400        1291      3                                        Conlon, Mr. Thomas Henry   male 31.00     0     0
+401        1292      1                                         Bonnell, Miss. Caroline female 30.00     0     0
+402        1293      2                                                 Gale, Mr. Harry   male 38.00     1     0
+403        1294      1                                  Gibson, Miss. Dorothy Winifred female 22.00     0     1
+404        1295      1                                          Carrau, Mr. Jose Pedro   male 17.00     0     0
+405        1296      1                                    Frauenthal, Mr. Isaac Gerald   male 43.00     1     0
+406        1297      2                    Nourney, Mr. Alfred (Baron von Drachstedt&quot;)&quot;   male 20.00     0     0
+407        1298      2                                       Ware, Mr. William Jeffery   male 23.00     1     0
+408        1299      1                                      Widener, Mr. George Dunton   male 50.00     1     1
+409        1300      3                                 Riordan, Miss. Johanna Hannah&quot;&quot; female    NA     0     0
+410        1301      3                                       Peacock, Miss. Treasteall female  3.00     1     1
+411        1302      3                                          Naughton, Miss. Hannah female    NA     0     0
+412        1303      1                 Minahan, Mrs. William Edward (Lillian E Thorpe) female 37.00     1     0
+413        1304      3                                  Henriksson, Miss. Jenny Lovisa female 28.00     0     0
+414        1305      3                                              Spector, Mr. Woolf   male    NA     0     0
+415        1306      1                                    Oliva y Ocana, Dona. Fermina female 39.00     0     0
+416        1307      3                                    Saether, Mr. Simon Sivertsen   male 38.50     0     0
+417        1308      3                                             Ware, Mr. Frederick   male    NA     0     0
+418        1309      3                                        Peter, Master. Michael J   male    NA     1     1
+                Ticket     Fare           Cabin Embarked
+1               330911   7.8292                        Q
+2               363272   7.0000                        S
+3               240276   9.6875                        Q
+4               315154   8.6625                        S
+5              3101298  12.2875                        S
+6                 7538   9.2250                        S
+7               330972   7.6292                        Q
+8               248738  29.0000                        S
+9                 2657   7.2292                        C
+10           A/4 48871  24.1500                        S
+11              349220   7.8958                        S
+12                 694  26.0000                        S
+13               21228  82.2667             B45        S
+14               24065  26.0000                        S
+15         W.E.P. 5734  61.1750             E31        S
+16       SC/PARIS 2167  27.7208                        C
+17              233734  12.3500                        Q
+18                2692   7.2250                        C
+19    STON/O2. 3101270   7.9250                        S
+20                2696   7.2250                        C
+21            PC 17603  59.4000                        C
+22             C 17368   3.1708                        S
+23            PC 17598  31.6833                        S
+24            PC 17597  61.3792                        C
+25            PC 17608 262.3750 B57 B59 B63 B66        C
+26           A/5. 3337  14.5000                        S
+27              113509  61.9792             B36        C
+28                2698   7.2250                        C
+29              113054  30.5000             A21        S
+30                2662  21.6792                        C
+31          SC/AH 3085  26.0000                        S
+32          C.A. 31029  31.5000                        S
+33           C.A. 2315  20.5750                        S
+34          W./C. 6607  23.4500                        S
+35               13236  57.7500             C78        C
+36                2682   7.2292                        C
+37              342712   8.0500                        S
+38              315087   8.6625                        S
+39              345768   9.5000                        S
+40                1601  56.4958                        S
+41              349256  13.4167                        C
+42              113778  26.5500             D34        S
+43  SOTON/O.Q. 3101263   7.8500                        S
+44              237249  13.0000                        S
+45               11753  52.5542             D19        S
+46   STON/O 2. 3101291   7.9250                        S
+47            PC 17594  29.7000              A9        C
+48              370374   7.7500                        Q
+49               11813  76.2917             D15        C
+50          C.A. 37671  15.9000                        S
+51               13695  60.0000             C31        S
+52       SC/PARIS 2168  15.0333                        C
+53               29105  23.0000                        S
+54               19950 263.0000     C23 C25 C27        S
+55         SC/A.3 2861  15.5792                        C
+56              382652  29.1250                        Q
+57              349230   7.8958                        S
+58              348122   7.6500           F G63        S
+59              386525  16.1000                        S
+60            PC 17608 262.3750             B61        C
+61              349232   7.8958                        S
+62              237216  13.5000                        S
+63              347090   7.7500                        S
+64              334914   7.7250                        Q
+65            PC 17608 262.3750 B57 B59 B63 B66        C
+66        F.C.C. 13534  21.0000                        S
+67              330963   7.8792                        Q
+68              113796  42.4000                        S
+69                2543  28.5375             C53        C
+70               19950 263.0000     C23 C25 C27        S
+71              382653   7.7500                        Q
+72              349211   7.8958                        S
+73             3101297   7.9250                        S
+74            PC 17562  27.7208             D43        C
+75              113503 211.5000            C130        C
+76              113503 211.5000            C132        C
+77              359306   8.0500                        S
+78               11770  25.7000            C101        S
+79              248744  13.0000                        S
+80              368702   7.7500                        Q
+81                2678  15.2458                        C
+82            PC 17483 221.7792         C55 C57        S
+83               19924  26.0000                        S
+84              349238   7.8958                        S
+85              240261  10.7083                        Q
+86                2660  14.4542                        C
+87              330844   7.8792                        Q
+88           A/4 31416   8.0500                        S
+89              364856   7.7500                        Q
+90               29103  23.0000                        S
+91              347072  13.9000                        S
+92              345498   7.7750                        S
+93          F.C. 12750  52.0000             B71        S
+94              376563   8.0500                        S
+95               13905  26.0000                        C
+96              350033   7.7958                        S
+97               19877  78.8500             C46        S
+98   STON/O 2. 3101268   7.9250                        S
+99              347471   7.8542                        S
+100         A./5. 3338   8.0500                        S
+101              11778  55.4417            C116        C
+102             228414  26.0000                        S
+103             365235   7.7500                        Q
+104             347070   7.7750                        S
+105               2625   8.5167                        C
+106             C 4001  22.5250                        S
+107             330920   7.8208                        Q
+108             383162   7.7500                        Q
+109               3410   8.7125                        S
+110             248734  13.0000               F        S
+111             237734  15.0458                        C
+112             330968   7.7792                        Q
+113           PC 17531  31.6792             A29        C
+114             329944   7.2833                        Q
+115           PC 17483 221.7792         C55 C57        S
+116               2680  14.4542                        C
+117               2681   6.4375                        C
+118            PP 9549  16.7000              G6        S
+119              13050  75.2417              C6        C
+120        SC/AH 29037  26.0000                        S
+121         C.A. 33595  15.7500                        S
+122             367227   7.7500                        Q
+123              13236  57.7500             C28        C
+124             392095   7.2500                        S
+125             368783   7.7500                        Q
+126             371362  16.1000                        S
+127             350045   7.7958                        S
+128             367226  23.2500                        Q
+129             211535  13.0000                        S
+130             342441   8.0500                        S
+131    STON/OQ. 369943   8.0500                        S
+132             113780  28.5000             C51        C
+133               4133  25.4667                        S
+134               2621   6.4375                        C
+135             349226   7.8958                        S
+136             350409   7.8542                        S
+137               2656   7.2250                        C
+138             248659  13.0000                        S
+139    SOTON/OQ 392083   8.0500                        S
+140            CA 2144  46.9000                        S
+141            CA 2144  46.9000                        S
+142             113781 151.5500                        S
+143           PC 17608 262.3750 B57 B59 B63 B66        C
+144             244358  26.0000                        S
+145              17475  26.5500                        S
+146             345763  18.0000                        S
+147              17463  51.8625             E46        S
+148        SC/A4 23568   8.0500                        S
+149             113791  26.5500                        S
+150             250651  26.0000                        S
+151              11767  83.1583             C54        C
+152             349255   7.8958                        C
+153               3701       NA                        S
+154             350405  12.1833                        S
+155             347077  31.3875                        S
+156      S.O./P.P. 752   7.5500                        S
+157           PC 17483 221.7792             C97        S
+158             347469   7.8542                        S
+159             110489  26.5500             D22        S
+160 SOTON/O.Q. 3101315  13.7750                        S
+161             335432   7.7333                        Q
+162               2650  15.2458                        C
+163             220844  13.5000                        S
+164             343271   7.0000                        S
+165             237393  13.0000                        S
+166             315153  22.0250                        S
+167           PC 17591  50.4958             B10        C
+168         W./C. 6608  34.3750                        S
+169              17770  27.7208                        C
+170               7548   8.9625                        S
+171      S.O./P.P. 251   7.5500                        S
+172               2670   7.2250                        C
+173             347072  13.9000                        S
+174               2673   7.2292                        C
+175             347077  31.3875                        S
+176              29750  39.0000                        S
+177         C.A. 33112  36.7500                        S
+178              11778  55.4417            C116        C
+179             230136  39.0000              F4        S
+180           PC 17756  83.1583             E45        C
+181             233478  13.0000                        S
+182           PC 17756  83.1583             E52        C
+183             113773  53.1000             D30        S
+184               7935   7.7500                        Q
+185           PC 17558 247.5208         B58 B60        C
+186             239059  16.0000                        S
+187        S.O./P.P. 2  21.0000                        S
+188          A/4 48873   8.0500                        S
+189           CA. 2343  69.5500                        S
+190              28221  13.0000                        S
+191             226875  26.0000                        S
+192             111163  26.0000                        S
+193           A/5. 851  14.5000                        S
+194             235509  12.3500                        Q
+195              28220  32.5000                        S
+196             347465   7.8542                        S
+197              16966 134.5000             E34        C
+198             347066   7.7750                        S
+199         C.A. 31030  10.5000                        S
+200              65305   8.1125                        S
+201              36568  15.5000                        Q
+202             347080  14.4000                        S
+203           PC 17757 227.5250         C62 C64        C
+204              26360  26.0000                        S
+205         C.A. 34050  10.5000                        S
+206         F.C. 12998  25.7417                        C
+207               9232   7.7500                        Q
+208              28034  10.5000                        S
+209           PC 17613  27.7208             A11        C
+210             349250   7.8958                        S
+211             C 4001  22.5250                        S
+212 SOTON/O.Q. 3101308   7.0500                        S
+213       S.O.C. 14879  73.5000                        S
+214              24065  26.0000                        S
+215             347091   7.7750                        S
+216             113038  42.5000             B11        S
+217             330924   7.8792                        Q
+218              36928 164.8667                        S
+219             113503 211.5000             C80        C
+220              32302   8.0500                        S
+221      SC/PARIS 2148  13.8583                        C
+222             342684   8.0500                        S
+223        W./C. 14266  10.5000             F33        S
+224             350053   7.7958                        S
+225           PC 17606  27.4458                        C
+226               2661  15.2458                        C
+227             350054   7.7958                        S
+228             370368   7.7500                        Q
+229          C.A. 6212  15.1000                        S
+230             242963  13.0000                        S
+231             220845  65.0000                        S
+232             113795  26.5500                        S
+233            3101266   6.4958                        S
+234             330971   7.8792                        Q
+235           PC 17599  71.2833             C85        C
+236             350416   7.8542                        S
+237             110813  75.2500             D37        C
+238               2679   7.2250                        C
+239             250650  13.0000                        S
+240           PC 17761 106.4250             C86        C
+241             112377  27.7208                        C
+242             237789  30.0000                        S
+243              16966 134.5000             E34        C
+244               3470   7.8875                        S
+245         W./C. 6607  23.4500                        S
+246              17464  51.8625             D21        S
+247       F.C.C. 13534  21.0000                        S
+248              28220  32.5000                        S
+249              26707  26.0000                        S
+250               2660  14.4542                        C
+251         C.A. 34651  27.7500                        S
+252   SOTON/O2 3101284   7.9250                        S
+253              13508 136.7792             C89        C
+254               7266   9.3250                        S
+255             345775   9.5000                        S
+256         C.A. 42795   7.5500                        S
+257          AQ/4 3130   7.7500                        Q
+258             363611   8.0500                        S
+259              28404  13.0000                        S
+260             345501   7.7750                        S
+261             345572  17.4000                        S
+262             350410   7.8542                        S
+263              29103  23.0000                        S
+264             350405  12.1833                        S
+265         C.A. 34644  12.7375                        C
+266             349235   7.8958                        S
+267             112051   0.0000                        S
+268         C.A. 49867   7.5500                        S
+269        A. 2. 39186   8.0500                        S
+270             315095   8.6625                        S
+271              13050  75.2417              C6        C
+272             368573   7.7500                        Q
+273              13508 136.7792             C89        C
+274             370371  15.5000                        Q
+275               2676   7.2250                        C
+276             236853  26.0000                        S
+277           SC 14888  10.5000                        S
+278               2926  26.0000                        S
+279           CA 31352  21.0000                        S
+280        W./C. 14260  10.5000                        S
+281             315085   8.6625                        S
+282 SOTON/O.Q. 3101315  13.7750                        S
+283             364859   7.7500                        Q
+284               2650  15.2458                        C
+285             370129  20.2125                        S
+286          A/5 21175   7.2500                        S
+287 SOTON/O.Q. 3101314   7.2500                        S
+288              21228  82.2667             B45        S
+289               2655   7.2292           F E46        C
+290           A/5 1478   8.0500                        S
+291           PC 17607  39.6000                        S
+292             382650   6.9500                        Q
+293               2652   7.2292                        C
+294              33638  81.8583             A34        S
+295             345771   9.5000                        S
+296             349202   7.8958                        S
+297      SC/Paris 2123  41.5792                        C
+298               2662  21.6792                        C
+299             113801  45.5000                        S
+300             347467   7.8542                        S
+301             347079   7.7750                        S
+302             237735  15.0458               D        C
+303        S.O./P.P. 2  21.0000                        S
+304             315092   8.6625                        S
+305             383123   7.7500                        Q
+306             112901  26.5500             B26        S
+307             113781 151.5500         C22 C26        S
+308             392091   9.3500                        S
+309              12749  93.5000             B69        S
+310             350026  14.1083                        S
+311             315091   8.6625                        S
+312               2658   7.2250                        C
+313            LP 1588   7.5750                        S
+314             368364   7.7500                        Q
+315           PC 17760 135.6333             C32        C
+316        AQ/3. 30631   7.7333                        Q
+317           PC 17569 146.5208             B78        C
+318              28004  10.5000                        S
+319             350408   7.8542                        S
+320         C.A. 31029  31.5000                        S
+321             347075   7.7750                        S
+322               2654   7.2292           F E57        C
+323             244368  13.0000              F2        S
+324             113790  26.5500                        S
+325              24160 211.3375                        S
+326 SOTON/O.Q. 3101309   7.0500                        S
+327             230136  39.0000              F4        S
+328           PC 17585  79.2000                        C
+329               2003  26.0000                        S
+330             236854  13.0000                        S
+331         C.A. 33112  36.7500                        S
+332           PC 17580  29.7000             A18        C
+333               2684   7.2250                        C
+334               2653  15.7417                        C
+335             349229   7.8958                        S
+336             110469  26.0000            C106        S
+337             244360  13.0000                        S
+338               2675   7.2292                        C
+339         C.A. 31029  31.5000                        S
+340               2622   7.2292                        C
+341         C.A. 15185  10.5000                        S
+342             350403   7.5792                        S
+343           CA. 2343  69.5500                        S
+344           PC 17755 512.3292     B51 B53 B55        C
+345           A/5. 851  14.5000                        S
+346             348125   7.6500                        S
+347             237670  13.0000                        S
+348               2688   7.2292                        C
+349             248726  13.5000                        S
+350       F.C.C. 13528  21.0000                        S
+351           PC 17759  63.3583         D10 D12        C
+352       F.C.C. 13540  10.5000                        S
+353       S.O.C. 14879  73.5000                        S
+354             220845  65.0000                        S
+355          C.A. 2315  20.5750                        S
+356             113044  26.0000             E60        S
+357              11769  51.4792            C101        S
+358               1222   7.8792                        S
+359             368402   7.7500                        Q
+360             349910  15.5500                        S
+361           CA. 2343  69.5500                        S
+362    S.C./PARIS 2079  37.0042                        C
+363           CA 31352  21.0000                        S
+364             315083   8.6625                        S
+365              11765  55.4417             E50        C
+366           CA. 2343  69.5500                        S
+367               2689  14.4583                        C
+368            3101295  39.6875                        S
+369             112378  59.4000                        C
+370      SC/PARIS 2147  13.8583                        C
+371              28133  11.5000                        S
+372              16966 134.5000         E39 E41        C
+373             112058   0.0000     B52 B54 B56        S
+374             248746  13.0000                        S
+375              33638  81.8583             A34        S
+376           PC 17608 262.3750                        C
+377             315152   8.6625                        S
+378              29107  11.5000                        S
+379                680  50.0000             C39        S
+380             347077  31.3875                        S
+381             366713   7.7500                        Q
+382             330910   7.8792                        Q
+383             364498  14.5000                        S
+384             376566  16.1000                        S
+385      SC/PARIS 2159  12.8750                        S
+386             220845  65.0000                        S
+387             349911   7.7750                        S
+388             244346  13.0000                        S
+389             364858   7.7500                        Q
+390             349909  21.0750                        S
+391              12749  93.5000             B24        S
+392           PC 17592  39.4000             D28        S
+393          C.A. 2673  20.2500                        S
+394         C.A. 30769  10.5000                        S
+395             315153  22.0250                        S
+396              13695  60.0000             C31        S
+397             371109   7.2500                        Q
+398              13567  79.2000             B41        C
+399             347065   7.7750                        S
+400              21332   7.7333                        Q
+401              36928 164.8667              C7        S
+402              28664  21.0000                        S
+403             112378  59.4000                        C
+404             113059  47.1000                        S
+405              17765  27.7208             D40        C
+406      SC/PARIS 2166  13.8625             D38        C
+407              28666  10.5000                        S
+408             113503 211.5000             C80        C
+409             334915   7.7208                        Q
+410 SOTON/O.Q. 3101315  13.7750                        S
+411             365237   7.7500                        Q
+412              19928  90.0000             C78        Q
+413             347086   7.7750                        S
+414          A.5. 3236   8.0500                        S
+415           PC 17758 108.9000            C105        C
+416 SOTON/O.Q. 3101262   7.2500                        S
+417             359309   8.0500                        S
+418               2668  22.3583                        C
+</div></pre>
+  </div>
+  <div class="span4 sidebar">
+    <!-- <ul>
+      <li>titanic_test</li>
+    </ul>
+    <ul>
+      <li>datasets</li>
+    </ul> -->
+
+
+
+
+  </div>
+</div>
+      
+      <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+<p>Built by <a href="https://github.com/hadley/staticdocs">staticdocs</a>. Styled with <a href="https://getbootstrap.com/2.0.4/">bootstrap</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>
