@@ -13,12 +13,13 @@ Description: This data set provides information on the fate of passengers on
     are used in a very well known Kaggle competition; formatting the raw
     data sets in a package hopefully lowers the barrier to entry for users
     new to R and machine learning.
+UrlNote: https://github.com/paulhendricks/titanic
 URL: https://github.com/paulhendricks/titanic
 BugReports: https://github.com/paulhendricks/titanic/issues
 Depends: R (>= 3.1.2)
 License: CC0
 LazyData: true
-Suggests: 
+Suggests:
     dplyr,
     knitr
 VignetteBuilder: knitr
