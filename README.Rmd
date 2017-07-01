@@ -47,7 +47,7 @@ If you encounter a clear bug, please file a [minimal reproducible example](http:
 To cite package ‘titanic’ in publications use:
 
 ```
-Paul Hendricks (NA). titanic: Titanic Passenger Survival Data Set. R package version 0.1.0.9000. https://github.com/paulhendricks/titanic
+Paul Hendricks (2015). titanic: Titanic Passenger Survival Data Set. R package version 0.1.0. https://github.com/paulhendricks/titanic
 ```
 
 A BibTeX entry for LaTeX users is
@@ -56,7 +56,8 @@ A BibTeX entry for LaTeX users is
 @Manual{,
   title = {titanic: Titanic Passenger Survival Data Set},
   author = {Paul Hendricks},
-  note = {R package version 0.1.0.9000},
+  year = {2015}, 
+  note = {R package version 0.1.0},
   url = {https://github.com/paulhendricks/titanic},
 }
 ```
