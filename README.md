@@ -10,15 +10,13 @@ titanic
 Installation
 ------------
 
-You can install:
-
--   the latest released version from CRAN with
+You can install the latest development version from CRAN:
 
 ``` r
 install.packages("titanic")
 ```
 
--   the latest development version from github with
+Or from GitHub with:
 
 ``` r
 if (packageVersion("devtools") < 1.6) {
