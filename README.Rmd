@@ -40,11 +40,7 @@ if (packageVersion("devtools") < 1.6) {
 devtools::install_github("paulhendricks/titanic")
 ```
 
-If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/paulhendricks/titanic/issues).
-
-## Getting started
-
-To get started, read the intro vignette: `vignette("introduction", package = "titanic")`.
+If you encounter a clear bug, please file a [minimal reproducible example](http://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example) on [GitHub](https://github.com/paulhendricks/titanic/issues).
 
 ## Citation
 
