@@ -1,3 +1,4 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 titanic
 =======
@@ -13,22 +14,18 @@ You can install:
 
 -   the latest released version from CRAN with
 
-    [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/titanic)](http://cran.r-project.org/package=titanic)
-
-    ``` r
-    install.packages("titanic")
-    ```
+``` r
+install.packages("titanic")
+```
 
 -   the latest development version from github with
 
-    [![GitHub version](https://badge.fury.io/gh/paulhendricks%2Ftitanic.svg)](http://badge.fury.io/gh/paulhendricks%2Ftitanic)
-
-    ``` r
-    if (packageVersion("devtools") < 1.6) {
-      install.packages("devtools")
-    }
-    devtools::install_github("paulhendricks/titanic")
-    ```
+``` r
+if (packageVersion("devtools") < 1.6) {
+  install.packages("devtools")
+}
+devtools::install_github("paulhendricks/titanic")
+```
 
 If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/paulhendricks/titanic/issues).
 

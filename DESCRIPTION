@@ -23,3 +23,4 @@ Suggests:
     dplyr,
     knitr
 VignetteBuilder: knitr
+RoxygenNote: 6.0.1

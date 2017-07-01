@@ -1,7 +1,6 @@
 ---
 output:
-  md_document:
-    variant: markdown_github
+  github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -30,22 +29,18 @@ You can install:
 
 * the latest released version from CRAN with
 
-    [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/titanic)](http://cran.r-project.org/package=titanic)
-
-    ```R
-    install.packages("titanic")
-    ````
+```R
+install.packages("titanic")
+````
 
 * the latest development version from github with
 
-    [![GitHub version](https://badge.fury.io/gh/paulhendricks%2Ftitanic.svg)](http://badge.fury.io/gh/paulhendricks%2Ftitanic)
-
-    ```R
-    if (packageVersion("devtools") < 1.6) {
-      install.packages("devtools")
-    }
-    devtools::install_github("paulhendricks/titanic")
-    ```
+```R
+if (packageVersion("devtools") < 1.6) {
+  install.packages("devtools")
+}
+devtools::install_github("paulhendricks/titanic")
+```
 
 If you encounter a clear bug, please file a minimal reproducible example on [github](https://github.com/paulhendricks/titanic/issues).
 
@@ -62,4 +57,3 @@ To get started, read the intro vignette: `vignette("introduction", package = "ti
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/paulhendricks/titanic/blob/master/LICENSE)
-
