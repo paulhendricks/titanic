@@ -46,12 +46,21 @@ If you encounter a clear bug, please file a minimal reproducible example on [git
 
 To get started, read the intro vignette: `vignette("introduction", package = "titanic")`.
 
-## People
+## Citation
 
-* The original author of `titanic` is [Paul Hendricks](https://github.com/paulhendricks). [![Gratipay](https://img.shields.io/gratipay/JSFiddle.svg)](https://gratipay.com/~paulhendricks/)
+To cite package ‘titanic’ in publications use:
 
-* The lead maintainer of `titanic` is [Paul Hendricks](https://github.com/paulhendricks).  [![Gratipay](https://img.shields.io/gratipay/JSFiddle.svg)](https://gratipay.com/~paulhendricks/)
+```
+Paul Hendricks (NA). titanic: Titanic Passenger Survival Data Set. R package version 0.1.0.9000. https://github.com/paulhendricks/titanic
+```
 
-## License
+A BibTeX entry for LaTeX users is
 
-[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/paulhendricks/titanic/blob/master/LICENSE)
+```
+@Manual{,
+  title = {titanic: Titanic Passenger Survival Data Set},
+  author = {Paul Hendricks},
+  note = {R package version 0.1.0.9000},
+  url = {https://github.com/paulhendricks/titanic},
+}
+```
